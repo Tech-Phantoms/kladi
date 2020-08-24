@@ -1,4 +1,4 @@
-# sphere
+# Kladi
 
 > A easy to use state management library for react
 
