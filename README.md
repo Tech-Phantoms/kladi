@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save sphere
+npm install --save kladi
 ```
 
 ## Usage
