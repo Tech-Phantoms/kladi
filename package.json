@@ -1,10 +1,10 @@
 {
-  "name": "sphere",
+  "name": "kladi",
   "version": "1.0.0",
   "description": "A easy to use state management library for react",
   "author": "Ninja-Developers",
   "license": "MIT",
-  "repository": "Ninja-Developers/sphere",
+  "repository": "Ninja-Developers/kladi",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
