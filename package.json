@@ -4,9 +4,9 @@
   "description": "A easy to use state management library for react",
   "author": "Ninja-Developers",
   "license": "MIT",
-  "repository": "Ninja-Developers/sphere",
+  "repository": "git@github.com:Ninja-Developers/sphere.git",
   "publishConfig": {
-    "registry": "git@github.com:Ninja-Developers/sphere.git"
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
