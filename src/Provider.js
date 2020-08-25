@@ -1,8 +1,8 @@
 import store from './context'
-import { useReducer } from 'react'
+import React, { useReducer } from 'react'
 import reducer from './reducer'
 
-const Provider = ({ children, initialState }) => {
+const Provider = ({ children, initialState= {} }) => {
 
     const [state, dispatch] = useReducer(reducer, initialState)
 
