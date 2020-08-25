@@ -1,8 +1,6 @@
-import './index.css'
-
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import { Provider } from 'sphere'
 
-ReactDOM.render(<Provider><App /></Provider>, document.getElementById('root'))
+ReactDOM.render(<Provider initialState={{name: 'Souvik'}} ><App /></Provider>, document.getElementById('root'))
