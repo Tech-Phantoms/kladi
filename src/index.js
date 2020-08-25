@@ -1,8 +1,8 @@
 import Provider from './Provider'
-import { getState } from './hooks'
+import { useState } from './hooks'
 
 
 export {
   Provider,
-  getState
+  useState
 }
