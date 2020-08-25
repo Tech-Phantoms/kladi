@@ -13,16 +13,15 @@ npm install --save kladi
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import {Provider} from 'kladi'
 
-import MyComponent from 'sphere'
-import 'sphere/dist/index.css'
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+ReactDOM.render(<Provider>
+<App/>
+</Provider>, document.getElementById('root'))
 ```
 
 ## License
