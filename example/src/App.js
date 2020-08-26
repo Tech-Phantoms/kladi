@@ -3,14 +3,23 @@ import React from 'react'
 import { useState } from 'sphere'
 import 'sphere/dist/index.css'
 
+const Check = props => {
+  let [count, setCount] = useState('count', 0)
+  return (
+    <div>
+      {count}
+    </div>
+  )
+}
+
 const App = () => {
-  let [state, setCount] = useState('count', 0)
+  let [count, setCount] = useState('count', 0)
 
   return (
     <div>
-      {state.count}
-      {console.log('app',state.count)}
-      <button onClick={() => { setCount(state.count + 1)}}>Press</button>
+      <Check />
+      {console.log('app', count)}
+      <button onClick={() => { setCount(count + 1) }}>Press</button>
     </div>
   )
 }

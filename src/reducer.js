@@ -4,15 +4,15 @@ import {
 } from './constants'
 
 export default (state, action) => {
-    
+
     switch (action.type) {
         case CREATE:
-            let newState = state
+            let newState = { ...state }
             newState[action.name] = action.value
             return newState
 
         case UPDATE:
-            let ns = state
+            let ns = { ...state }
             ns[action.name] = action.value
             return ns
 

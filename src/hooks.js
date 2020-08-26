@@ -16,9 +16,9 @@ const useState = (name, value) => {
         dispatch({ type: CREATE, name: name, value: value })
         console.log('useState', state)
 
-        return [state, changer(name)]
+        return [state[name], changer(name)]
     } else {
-        return [state, changer(name)]
+        return [state[name], changer(name)]
     }
 
 }
