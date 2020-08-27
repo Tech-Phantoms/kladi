@@ -1,6 +1,6 @@
-# Kladi
-
-> A easy to use state management library for react
+<p align="center">
+<img src="./logo.svg" width="80%">
+</p>
 
 [![NPM](https://img.shields.io/npm/v/sphere.svg)](https://www.npmjs.com/package/sphere) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
