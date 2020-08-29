@@ -1,7 +1,7 @@
 <p align="center">
-<img src="./logo.svg" width="80%">
+  <a href="https://www.npmjs.com/package/kladi"><img src="./logo.svg" width="80%"></a>
 
-[![NPM](https://img.shields.io/npm/v/sphere.svg)](https://www.npmjs.com/package/sphere) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/kladi.svg)](https://www.npmjs.com/package/kladi) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 </p>
 
 ## Install
