@@ -13,27 +13,36 @@ npm install --save kladi
 ## Usage
 
 ```jsx
-import {Provider, useState} from 'kladi'
+import { Provider, useState } from "kladi";
 
-import React from 'react'
-import ReactDOM from 'react-dom'
-import App from './App'
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-ReactDOM.render(<Provider>
-<App/>
-</Provider>, document.getElementById('root'))
+ReactDOM.render(
+  <Provider>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
 
-const App = props => {
-    let [count, setCount] = useState('count', 0)
+const App = (props) => {
+  let [count, setCount] = useState("count", 0);
 
-    return (
-        <div>
-        {count}
-        <button onClick={() => { setCount(count + 1) }}>Press</button>
-        </div>
-    )
+  return (
+    <div>
+      {count}
+      <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+      >
+        Press
+      </button>
+    </div>
+  );
+};
 
-}
 ```
 
 ## License
