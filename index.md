@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+## KLADI (Development Version)
 
-You can use the [editor on GitHub](https://github.com/Ninja-Developers/kladi/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  <a href="https://www.npmjs.com/package/kladi"><img src="https://github.com/Ninja-Developers/kladi/raw/master/logo.svg" width="80%"></a>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[![NPM](https://img.shields.io/npm/v/kladi.svg)](https://www.npmjs.com/package/kladi) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![GitHub license](https://img.shields.io/github/license/Ninja-Developers/kladi?logo=github)](https://github.com/Ninja-Developers/kladi/blob/master/LICENSE)
+</p>
 
-### Markdown
+## Install
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+npm install --save kladi
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Usage
 
-### Jekyll Themes
+```jsx
+import { Provider, useState } from "kladi";
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ninja-Developers/kladi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
 
-### Support or Contact
+ReactDOM.render(
+  <Provider>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+const App = (props) => {
+  let [count, setCount] = useState("count", 0);
+
+  return (
+    <div>
+      {count}
+      <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+      >
+        Press
+      </button>
+    </div>
+  );
+};
+
+```
+
+## License
+
+MIT © [Ninja-Developers](https://github.com/Ninja-Developers) an Open Source Initiative of  [Tech Phantoms](techphantoms.onrender.com)
