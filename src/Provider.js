@@ -3,8 +3,7 @@ import React, { useReducer } from 'react'
 import reducer from './reducer'
 
 const Provider = ({ children, initialState = {} }) => {
-   const [state, dispatch] = useReducer(reducer, initialState)
-   return <store.Provider value={{ state, dispatch }} >{children}</store.Provider>
+  const [state, dispatch] = useReducer(reducer, initialState)
+  return <store.Provider value={{ state, dispatch }}>{children}</store.Provider>
 }
-
 export default Provider
