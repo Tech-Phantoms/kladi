@@ -3,7 +3,9 @@
 <p align="center">
   <a href="https://www.npmjs.com/package/kladi"><img src="https://github.com/Ninja-Developers/kladi/raw/master/logo.svg" width="80%"></a>
 
-[![NPM](https://img.shields.io/npm/v/kladi.svg)](https://www.npmjs.com/package/kladi) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) [![GitHub license](https://img.shields.io/github/license/Ninja-Developers/kladi?logo=github)](https://github.com/Ninja-Developers/kladi/blob/master/LICENSE)
+<a href="https://www.npmjs.com/package/kladi"><img src="https://img.shields.io/npm/v/kladi.svg)](https://www.npmjs.com/package/kladi" alt="NPM"/></a>
+<a href="https://standardjs.com"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg" alt="JavaScript Style Guide"/></a>
+<a href="https://github.com/Ninja-Developers/kladi/blob/master/LICENSE"><img src="https://img.shields.io/github/license/Ninja-Developers/kladi?logo=github" alt="Github License"></a>
 </p>
 
 ## Install
