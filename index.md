@@ -51,4 +51,4 @@ const App = (props) => {
 
 ## License
 
-MIT © [Ninja-Developers](https://github.com/Ninja-Developers) an Open Source Initiative of  [Tech Phantoms](techphantoms.onrender.com)
+MIT © [Ninja-Developers](https://github.com/Ninja-Developers) an Open Source Initiative of  [Tech Phantoms](http://techphantoms.onrender.com)
