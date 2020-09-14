@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { useState } from 'sphere'
-import 'sphere/dist/index.css'
+// import 'sphere/dist/index.css'
 
 const Check = props => {
   let [count, setCount] = useState('count', 0)

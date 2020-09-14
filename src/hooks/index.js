@@ -1,6 +1,6 @@
-import store from './context'
+import store from '../context'
 import { useContext } from 'react'
-import { CREATE, UPDATE } from './constants'
+import { CREATE, UPDATE } from '../constants'
 
 const useState = (name, value) => {
   const { state, dispatch } = useContext(store)
