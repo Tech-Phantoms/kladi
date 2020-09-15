@@ -1,13 +1,25 @@
-import React, { Component } from 'react'
+import React from 'react'
+import { useState } from "kladi";
+
 import '../App.css'
-export default class Counter extends Component {
-  render() {
+const Counter = (propps) => {
+  
+    let [count, setCount] = useState("count", 0);
     return (
       <div>
-        <h1>1</h1>
-        <button>-</button>
-        <button>+</button>
+        <h1>{count}</h1>
+        <button
+        onClick={() => {
+          setCount(count - 1);
+        }}
+        >-</button>
+        <button
+        onClick={() => {
+          setCount(count + 1);
+        }}
+        >+</button>
       </div>
     )
-  }
+  
 }
+export default Counter;
