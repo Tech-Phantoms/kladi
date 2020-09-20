@@ -1,3 +1,3 @@
 import Provider from './providers'
-import { useState } from './hooks'
-export { Provider, useState }
+import { useGlobalState } from './hooks'
+export { Provider, useGlobalState }

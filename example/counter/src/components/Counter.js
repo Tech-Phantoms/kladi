@@ -1,10 +1,10 @@
 import React from 'react'
-import { useState } from "kladi";
+import { useGlobalState } from "kladi";
 
 import '../App.css'
-const Counter = (propps) => {
+const Counter = (props) => {
   
-    let [count, setCount] = useState("count", 0);
+    let [count, setCount] = useGlobalState("count", 0);
     return (
       <div>
         <h1>{count}</h1>
