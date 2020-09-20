@@ -16,7 +16,7 @@ npm install --save kladi
 ## Usage
 
 ```jsx
-import { Provider, useState } from "kladi";
+import { Provider, useGlobalState } from "kladi";
 
 import React from "react";
 import ReactDOM from "react-dom";
@@ -30,7 +30,7 @@ ReactDOM.render(
 );
 
 const App = (props) => {
-  let [count, setCount] = useState("count", 0);
+  let [count, setCount] = useGlobalState("count", 0);
 
   return (
     <div>
