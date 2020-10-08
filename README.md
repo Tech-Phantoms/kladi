@@ -50,4 +50,4 @@ const App = (props) => {
 
 ## License
 
-MIT © [Ninja-Developers](https://github.com/Ninja-Developers)
+MIT © [Ninja-Developers](https://github.com/Tech-Phantoms/kladi/blob/master/LICENSE)
